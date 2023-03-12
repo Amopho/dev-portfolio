@@ -16,7 +16,7 @@ This project was deployed with :heart: on GitHub.
 
 ### clone repository
 
-git clone <https://github.com/Amopho/portfolio-in-react>
+git clone <https://github.com/Amopho/dev-portfolio>
 
 ### npm install
 
@@ -226,7 +226,7 @@ npm install normalize-scss
 
 ```json
 {
-    "start": "run-p watch watch:styles",
+ "start": "run-p watch watch:styles",
 "build": "run-s clean clean:styles build:styles copy",
 "deploy": "run-s build publish",
 "build:styles": "sass src/scss:src/styles",
